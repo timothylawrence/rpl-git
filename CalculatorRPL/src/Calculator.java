@@ -37,4 +37,8 @@ public class Calculator {
 		if (a>b) return a;
 		else return b;
 	}
+
+    public float min(float a, float b) {
+      return (a < b) ? a : b;
+    }
 }
