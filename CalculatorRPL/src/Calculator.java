@@ -32,4 +32,9 @@ public class Calculator {
         return a / b;
         
     }
+	
+	public float max (float a, float b){
+		if (a>b) return a;
+		else return b;
+	}
 }
